@@ -23,6 +23,8 @@ wget https://raw.githubusercontent.com/Muppetpants/Password-Lists/main/Hak5.txt
 wget https://raw.githubusercontent.com/Muppetpants/Password-Lists/main/500-worst-passwords.txt
 git clone https://github.com/Muppetpants/apks.git
 git clone https://github.com/Muppetpants/customWLAN.git
+git clone https://github.com/BwithE/rpi-wpa2.git
+git clone https://github.com/BwithE/wpa_supplicant.git
 
 
 
