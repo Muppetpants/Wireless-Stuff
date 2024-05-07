@@ -25,6 +25,8 @@ git clone https://github.com/BwithE/rpi-wpa2.git
 git clone https://github.com/BwithE/wpa_supplicant.git
 git clone https://github.com/BwithE/kismet.git
 
+echo "Finished! Please run airgraph-ng and GPSprune while connected to the Internet to pull additional dependencies" 
+
 
 
 
