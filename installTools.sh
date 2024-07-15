@@ -9,7 +9,11 @@ if [[ $EUID -eq 0 ]]; then
    exit 1
 fi
 
-sudo sh -c "apt update && apt install hackrf libhackrf-dev libhackrf0 cubicsdr airgraph-ng gpsd gpsprune bluez bluez-test-scripts python3-bluez python3-dbus libsqlite3-dev ubertooth ruby-dev bundler git"
+sudo sh -c "apt update && apt install hackrf libhackrf-dev libhackrf0 airgraph-ng gpsd gpsprune bluez bluez-test-scripts python3-bluez python3-dbus libsqlite3-dev ubertooth ruby-dev bundler git"
+
+
+wget  https://github.com/AlexandreRouma/SDRPlusPlus/releases/download/nightly/sdrpp_debian_sid_amd64.deb
+sudo apt install ./sdrpp_debian_sid_amd64.deb
 
 mkdir -p Bluetooth_Tools/blue_hydra Bluetooth_Tools/blue_sonar
 # Clone Bluetooth Tool Repos
@@ -25,8 +29,10 @@ git clone https://github.com/BwithE/rpi-wpa2.git
 git clone https://github.com/BwithE/wpa_supplicant.git
 git clone https://github.com/BwithE/kismet.git
 
-echo "Finished! Please run airgraph-ng and GPSprune while connected to the Internet to pull additional dependencies" 
-
+clear
+echo "Finished! Creating an example airgraph output and opening GPSprune to install depends"
+airgraph-ng -i example.csv -o example_output.png -g CAPR
+gpsprune 
 
 
 

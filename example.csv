@@ -1,0 +1,10 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+E8:9C:25:11:22:33, 2024-07-08 14:37:13, 2024-07-08 14:38:53,  2, 720, WPA2, CCMP, PSK, -26,      718,       77,   0.  0.  0.  0,  14, MuppetPants, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+B8:27:EB:aa:aa:aa, 2024-07-08 14:37:28, 2024-07-08 14:38:28,  -1,        3, E8:9C:25:11:22:33,
+B8:27:EB:bb:bb:bb, 2024-07-08 14:37:48, 2024-07-08 14:38:28,  -1,        3, E8:9C:25:11:22:33,
+B8:27:EB:cc:cc:cc, 2024-07-08 14:38:08, 2024-07-08 14:38:08,  -1,        1, E8:9C:25:11:22:33,
+B8:27:EB:dd:dd:dd, 2024-07-08 14:38:28, 2024-07-08 14:38:28,  -1,        1, E8:9C:25:11:22:33,
+
