@@ -25,9 +25,7 @@ wget https://raw.githubusercontent.com/Muppetpants/KismetFiles/main/kismetSetup.
 git clone https://github.com/Muppetpants/Password-Lists.git
 git clone https://github.com/Muppetpants/apks.git
 git clone https://github.com/Muppetpants/customWLAN.git
-git clone https://github.com/BwithE/rpi-wpa2.git
-git clone https://github.com/BwithE/wpa_supplicant.git
-git clone https://github.com/BwithE/kismet.git
+git clone https://github.com/Muppetpants/convertSSID.git
 
 clear
 echo "Finished! Creating an example airgraph output and opening GPSprune to install depends"
